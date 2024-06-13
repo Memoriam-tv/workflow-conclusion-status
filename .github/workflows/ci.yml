@@ -236,7 +236,7 @@ jobs:
     timeout-minutes: 3
     if: always()
     steps:
-      - uses: technote-space/workflow-conclusion-action@gh-actions
+      - uses: Memoriam-tv/workflow-conclusion-status@gh-actions
       - uses: 8398a7/action-slack@v3
         with:
           status: failure
